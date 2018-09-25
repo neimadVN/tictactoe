@@ -38,6 +38,13 @@ body {
 
   .square:hover {
     cursor: pointer;
+    background-color: lightblue;
+  }
+
+  .square.square-winline {
+    font-weight: bolder;
+    color: white;
+    background-color: dodgerblue;
   }
   
   .kbd-navigation .square:focus {
@@ -51,4 +58,18 @@ body {
   
   .game-info {
     margin-left: 20px;
+  }
+
+  button.move-btn {
+    width: 200px;
+  }
+
+  button.move-btn.current-move {
+    font-weight: bold;
+    color: dodgerblue;
+  }
+
+  .list-reverse {
+    display: flex;
+    flex-direction: column-reverse;
   }

@@ -1,0 +1,18 @@
+.segment-btn {
+    border: 1px solid dodgerblue;
+    margin: 0;
+}
+
+.segment-btn.segment-selected {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.segment-btn.segment-selecteable {
+    color: dodgerblue;
+    background-color: white;
+}
+
+.ui-segment {
+    display: inline-block;
+}
